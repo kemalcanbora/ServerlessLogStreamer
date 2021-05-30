@@ -1,0 +1,21 @@
+{
+  "version": "2.0",
+  "app_name": "ServerlessLogStreamer",
+  "automatic_layer": true,
+  "stages": {
+    "dev": {
+      "api_gateway_stage": "api",
+      "environment_variables": {
+        "aws_access_key_id": "A",
+        "aws_secret_access_key": "Q",
+        "aws_region_name": "u",
+        "redis_index_name": "m",
+        "redis_host":"r",
+        "redis_port":"1",
+        "redis_password":"B",
+        "slack_token": "x",
+        "lambda_list" : "['lambda_1', 'lambda_2']"
+      }
+    }
+  }
+}
